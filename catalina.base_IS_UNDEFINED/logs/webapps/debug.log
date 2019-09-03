@@ -1,0 +1,3 @@
+2019-09-02 15:56:57.421 [main] DEBUG com.xhgong.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) VALUES (?,?,?,?, ?,?,?,?,?,?,?, ?,?) 
+2019-09-02 15:56:57.457 [main] DEBUG com.xhgong.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2019-09-02 15:56:57.069(Timestamp), null, 1(Integer), 审核中(String)
+2019-09-02 15:56:57.467 [main] DEBUG com.xhgong.o2o.dao.ShopDao.insertShop - <==    Updates: 1
